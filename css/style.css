@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    
+	font-family: 'Merriweather Sans', sans-serif;
+	background: #2c3e50;
+	color: #ececec;
+	
+}
+
+/* Estilo para o cabeçalho (header) */
+header {
+    background-color: #181f26;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+	box-shadow: 5px 5px 10px 0 #21201e;	  
+  }
+  
+  /* Estilo para o título (h1) no cabeçalho */
+  header h1 {
+    font-size: 24px;
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  /* Estilo para os links (a) no cabeçalho */
+  header a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+    line-height: 2.5;
+  }
+  
+  /* Estilo para o link de login (classe "button") */
+  header a.button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+  }
+  
+  /* Efeito de hover nos links */
+  header a:hover {
+    text-decoration: underline;
+  }
+  
+  h2{
+	text-align: center;
+	margin-bottom: 5rem;
+	font-size: 4rem;
+}
+
+.all-products{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.product{
+	overflow: hidden;
+	background: #ffffff;
+	color: #21201e;
+	text-align: center;
+	width: 240px;
+	height: 400px;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.2rem;
+	margin: 2rem;
+}
+
+.product .product-title, .product .product-price{
+	font-size: 18px;
+}
+
+.product:hover img{
+	scale:  1.1;
+}
+
+.product:hover {
+	box-shadow: 5px 15px 25px #eeeeee;
+}
+
+.product img {
+	height: 200px;
+	margin: 1rem;
+	transition: all 0.3s;
+}
+
+.product a:link, .product a:visited{
+	color: #ececec;
+	display: inline-block;
+	text-decoration: none;
+	background-color: #ff6600;
+	padding: 1.2rem 3rem;
+	border-radius: 1rem;
+	margin-top: 1rem;
+	font-size: 14px;
+	transition: all 0.2s;
+}
+
+.product a:hover{
+	transform: scale(1.1);
+}
+
+.title {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 3rem;
+}
+
+.card{
+	overflow: hidden;
+	margin-top: 15px;
+	color: #181f26;
+	background-color: white;
+	text-align: center;
+	width: 740px;
+	height: 570px;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 1.2rem;
+}
+
+.div-content{
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+

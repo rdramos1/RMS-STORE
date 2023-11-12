@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RMS - 3D Personalizador</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/inputs.css">
+    <link rel="stylesheet" href="css/choicebox.css">
+    <script src="javascript/personaliza.js"></script>
+    <script src="javascript/choicebox.js"></script>
+    <link rel="shortcut icon" type="imagex/png" href="imagens/icone.png">
+  </head>
+<body>
+
+
+    <header>
+        <h1>RMS 3D Store</h1>
+        <a href="index.html">Home</a>
+        <a href="index.html">Store</a>
+        <a href="personalizador.html">Personalizado</a>
+        <a href="">Garantia</a>
+        <a class="button" href="">Login</a>
+    </header>
+    <h1 class="title">Personalizador</h1>
+
+    <div class="all-products">
+
+        <div class="card">
+            <h3>Tipo:</h1>
+          <div class="radio">
+            <input type="radio" id="div1" name="fav_language" checked>
+            <label for="div1">Descrição do objeto</label>
+          </div>
+          <div class="radio">
+            <input type="radio" id="div2" name="fav_language">
+            <label for="div2">Informar link de download de objeto </label>
+          </div>
+
+
+            <div class="div-content" id="div1-content">
+                <h3 for="descricao">Descrição:</label>
+                <h4>Descreva como voce quer que seja seu objeto</h4>
+                <textarea id="descricao" name="descricao" rows="10" cols="60">Descreva aqui</textarea>
+                
+            </div>
+
+            <div class="div-content" id="div2-content" style="display: none;">
+                <h3>Link:</h3>
+                <input id="linkobj" name="linkobj" type="text">
+            </div>
+
+            <div class="custom-dropdown">
+              <button class="dropdown-button">
+                Selecione uma cor
+              </button>
+              <div class="dropdown-content">
+                <div class="dropdown-item">
+                  <img src="imagens/filamento azul.png" alt="Option 1">
+                  filamento azul
+                </div>
+                <div class="dropdown-item">
+                  <img src="imagens/filamento azul.png" alt="Option 2">
+                  filamento azul
+                </div>
+                <div class="dropdown-item">
+                  <img src="imagens/filamento azul.png" alt="Option 3">
+                  filamento azul
+                </div>
+              </div>
+            </div>
+            
+
+
+        </div>
+
+      </div>
+      
+
+</body>
+</html>
